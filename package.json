@@ -1,0 +1,27 @@
+{
+  "name": "react-mocha-testing",
+  "version": "1.0.0",
+  "description": "Dummy project for exploring React component testing with Mocha and Enzyme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelocordon-omada/react-testing-mocha.git"
+  },
+  "author": "Angelo Cordon <angelo.cordon@omadahealth.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelocordon-omada/react-testing-mocha/issues"
+  },
+  "homepage": "https://github.com/angelocordon-omada/react-testing-mocha#readme",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
