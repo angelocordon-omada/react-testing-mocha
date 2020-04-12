@@ -1,7 +1,12 @@
+import React from 'react';
 import { expect } from 'chai';
+import { mount } from 'enzyme';
 
-describe('test', () => {
-  it('should be true', () => {
-    expect(true).to.equal(true);
+import HomePage from '~/pages/index';
+
+describe('<HomePage/>', () => {
+  it('should render a welcome text', () => {
+    const page = mount(<HomePage />);
+    expect(page.text()).to.eq('Hello world');
   });
 });

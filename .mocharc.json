@@ -1,3 +1,4 @@
 {
+  "require": ["@babel/register", "specs/config/setup.js", "specs/config/enzyme.js"],
   "spec": "specs/**/*.spec.js"
 }
